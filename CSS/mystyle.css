@@ -1,0 +1,322 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+    background-color: floralwhite;    
+    background-size: cover;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: darkorange;
+}
+
+h1, h2, h3 {
+    margin: 0; 
+    padding: 25px;
+  
+}
+
+h2 {
+    color:white;
+}
+
+h3 {
+    color:orange;
+}
+
+
+
+#container {
+    background-color: floralwhite;
+    width: 800px;
+    height: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.header{
+    color:orange;
+    text-align: left;
+    padding: 10px;
+}
+
+.title {
+    width: 500px;
+    height: 250px;
+    display: block;
+    margin: 0 auto;
+}
+
+.content{
+    padding: 0;
+}
+
+.topnav{
+   width: 100%;
+   background-color: whitesmoke;
+    line-height: 35px;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.topnav a {
+    display: block;
+    color: orangered;
+    text-align: center;
+    padding: 15px 15px;
+    text-decoration: none;
+}
+
+.topnav ul {
+    float: left;
+}
+
+.topnav ul li {
+    float: left;
+    list-style: none; 
+    position: relative;
+}
+
+#nav ul li a {
+    display: block;
+    font-family: arial;
+    color: grey;
+    font-size: 14px;
+    padding: 24px 14px;
+    text-decoration: none;
+}
+
+.topnav ul li ul {
+    display: none;
+    position: absolute;
+    background-color: white
+    padding: 10px;
+    border-radius: 0px 0px 4px 4px;
+}
+
+.topnav ul li:hover ul {
+    display: block;
+    position: absolute;
+    background-color: yellow;
+    padding: 10px;
+    padding-right: 10px;
+    border-radius: : 0px 0px 4px 4px;
+}
+
+.topnav ul li ul li {
+    padding: 8px 14px;
+}
+
+.topnav ul li ul li a {
+    border-radius: 4px;
+}
+
+.topnav ul li ul li a:hover {
+    background-color: orange;
+}
+
+.slider_image{
+    width: 100%;
+    flex: 70%;
+    flex-wrap: wrap;
+    display: flex;
+    background-color: orange;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-container{
+    display: flex;
+    background-color: orangered;
+    justify-content: center;
+    clear: both;
+}
+
+.flex-container > div {
+    background-color: white;
+    color: white;
+    width: 100%;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+    
+}
+
+.flex-container img{
+    width: 300px;
+    height: 200px;
+}
+
+#aboutmain {
+    display: block;
+    margin: 0 auto;
+}
+
+.aboutunder {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.column {
+  flex: 1;
+  margin: 0 10px;
+  box-sizing: border-box;
+}
+
+#bts {
+    float: left;
+    margin-right: 20px;
+}
+
+.column1 {
+  display: flex;
+  flex-direction: column;
+}
+
+.image-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.image-container img {
+  max-width: 100%;
+  height: auto;
+}
+
+.image-container p {
+  width: 75%;
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+
+.image-wrapper {
+  flex: 1;
+  display: flex;
+}
+
+.image-wrapper img {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+
+.text-wrapper {
+  flex: 1;
+  margin-left: 10px;
+}
+
+#aboutdes {
+    color: black;
+}
+
+.aboutunder h3 {
+  border: 10px solid orange;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: white;
+  box-shadow: 0px 0px 5px orange;
+}
+.item {
+        display: inline-block;
+        margin-right: 20px;
+        margin-bottom: 20px;
+        vertical-align: top;
+        text-align: center;
+      
+    }
+    .item img {
+        max-width: 100%;
+        height: auto;
+        margin-bottom: 10px;
+        max-height: 100%;
+    }
+    .item p {
+        font-size: 16px;
+        line-height: 1.2;
+        margin: 0;
+    }
+
+.contactpage {
+  display: flex;
+  align-items: center;
+}
+
+.image img {
+  float: left;
+  margin-right: 20px;
+  max-width: 100%;
+  height: auto;
+}
+
+form {
+  margin-top: 20px;
+    margin-left: 40px;
+}
+
+form input {
+  display: block;
+  margin-bottom: 10px;
+    width: 125%;
+    height: 35px;
+}
+
+textarea {
+  display: block;
+  margin-bottom: 10px;
+    width: 125%;
+    height: 95px;
+}
+
+textarea::placeholder {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 10px;
+    color: orange;
+}
+
+input::placeholder, textarea::placeholder {
+  font-family: Arial, sans-serif;
+}
+
+input[type="text"]::placeholder {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 10px;
+    color: orange;
+}
+
+.sbutton{
+    color: orange;
+}
+
+button{
+    color: orangered;
+    float: right;
+}
+
+.signupcolumn{
+   float: left;
+    width: 50%;
+}
+
+.logincolumn{
+    float: right;
+    width: 50%;
+}
+
+.footer{
+position: fixed;
+bottom: 0;
+color: orange;
+}
